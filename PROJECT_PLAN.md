@@ -677,7 +677,7 @@ V1 规划流程：
   - `benchmarks/run_performance.py`
   - `tests/figures/test_engine.py`
   - `tests/figures/test_golden.py`
-  - `tests/fixtures/figures/golden_scatter.sha256`
+  - `tests/fixtures/figures/golden_scatter.json`
   - `tests/privacy/test_masking.py`
   - `tests/performance/test_performance.py`
 - 测试结果：`79 passed`，Python 3.14.3
