@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 - 2026-08-06
+
+### Fixed
+
+- Golden figure test now uses a cross-platform structural baseline instead of an
+  exact SVG hash, so Windows and Linux CI produce stable results.
+
 ## 1.0.0 - 2026-08-06
 
 ### Added
