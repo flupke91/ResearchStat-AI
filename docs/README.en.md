@@ -86,6 +86,8 @@ Exposed tools:
 - Research lessons: `docs/RESEARCH_LESSONS.md`
 - Open source ecosystem: `docs/ECOSYSTEM.md`
 - V1 acceptance: `docs/V1_ACCEPTANCE.md`
+- Paper draft: `docs/PAPER.md`
+- Beginner tutorial: `docs/TUTORIAL.md`
 
 ## License
 

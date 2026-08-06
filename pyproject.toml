@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "researchstat-ai"
-version = "1.0.1"
+version = "1.1.0"
 description = "AI-native statistical analysis and reproducibility platform"
 readme = "README.md"
 license = { text = "MIT" }

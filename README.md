@@ -3,6 +3,9 @@
 面向科研场景的 AI 原生统计分析与可复现性平台。它把自然语言分析请求转化为一条受 Protocol 约束、经人工评审、由 Python/R 双引擎交叉验证、并完整留痕的统计工作流。
 
 [![CI](https://github.com/flupke91/ResearchStat-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/flupke91/ResearchStat-AI/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/flupke91/ResearchStat-AI)](https://github.com/flupke91/ResearchStat-AI/releases)
+[![License](https://img.shields.io/github/license/flupke91/ResearchStat-AI)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
 
 [English](docs/README.en.md) | [简体中文](docs/README.zh-CN.md) | [日本語](docs/README.ja.md)
 
@@ -162,6 +165,8 @@ print(output["result"].model_dump())
 
 - 项目计划：[PROJECT_PLAN.md](PROJECT_PLAN.md)
 - V1 验收：[docs/V1_ACCEPTANCE.md](docs/V1_ACCEPTANCE.md)
+- 论文稿：[docs/PAPER.md](docs/PAPER.md)
+- 傻瓜式教程：[docs/TUTORIAL.md](docs/TUTORIAL.md)
 - 竞品调研：[docs/RESEARCH_LESSONS.md](docs/RESEARCH_LESSONS.md)
 - 开源生态：[docs/ECOSYSTEM.md](docs/ECOSYSTEM.md)
 - 英文介绍：[docs/README.en.md](docs/README.en.md)

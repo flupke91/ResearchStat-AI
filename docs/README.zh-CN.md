@@ -85,6 +85,8 @@ print(output["result"].model_dump())
 - 竞品调研：`docs/RESEARCH_LESSONS.md`
 - 开源生态：`docs/ECOSYSTEM.md`
 - V1 验收：`docs/V1_ACCEPTANCE.md`
+- 论文稿：`docs/PAPER.md`
+- 傻瓜式教程：`docs/TUTORIAL.md`
 
 ## License
 

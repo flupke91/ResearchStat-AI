@@ -86,6 +86,8 @@ print(output["result"].model_dump())
 - 競合調査: `docs/RESEARCH_LESSONS.md`
 - オープンソースエコシステム: `docs/ECOSYSTEM.md`
 - V1 受け入れ: `docs/V1_ACCEPTANCE.md`
+- 論文原稿: `docs/PAPER.md`
+- 初心者向けチュートリアル: `docs/TUTORIAL.md`
 
 ## ライセンス
 

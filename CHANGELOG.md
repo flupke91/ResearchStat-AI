@@ -1,11 +1,16 @@
 # Changelog
 
-## Unreleased
+## 1.1.0 - 2026-08-06
 
 ### Added
 
 - Detailed Simplified Chinese README with generated figure outputs, audit
   examples, and MCP tool examples.
+- Paper draft in `docs/PAPER.md`.
+- Beginner tutorial in `docs/TUTORIAL.md`.
+- GitHub ecosystem metadata: `CITATION.cff`, `codemeta.json`,
+  `CONTRIBUTING.md`, `SECURITY.md`, and `CODE_OF_CONDUCT.md`.
+- README badges for CI, release, license, and Python version.
 
 ## 1.0.1 - 2026-08-06
 

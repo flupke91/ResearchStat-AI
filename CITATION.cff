@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use ResearchStat AI in your research, please cite this repository."
+title: "ResearchStat AI"
+abstract: >-
+  AI-native statistical analysis and reproducibility platform with protocol
+  binding, human review, Python/R cross-engine validation, audit trails, and
+  publication figures.
+authors:
+  - name: "ResearchStat AI contributors"
+date-released: "2026-08-06"
+version: "1.1.0"
+license: "MIT"
+repository-code: "https://github.com/flupke91/ResearchStat-AI"
+keywords:
+  - statistics
+  - reproducibility
+  - bioinformatics
+  - MCP
+  - R
+  - Python
