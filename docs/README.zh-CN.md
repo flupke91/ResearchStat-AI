@@ -2,6 +2,8 @@
 
 面向科研场景的 AI 原生统计分析与可复现性平台。
 
+默认简体中文介绍以根目录 [README.md](../README.md) 为准，本页为中文镜像。
+
 [English](README.en.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 
 V1 已形成完整闭环：

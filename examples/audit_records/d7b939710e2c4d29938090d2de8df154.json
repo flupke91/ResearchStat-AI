@@ -1,0 +1,150 @@
+{
+  "analysis_id": "d7b939710e2c4d29938090d2de8df154",
+  "timestamp": "2026-08-06T13:50:38.711921Z",
+  "user_input": "compare three drugs on mouse tumor size",
+  "dataset_hash": "6a833b74cf0082781558917dcece9dda54973684b04b2666fe7e03c0bf35235e",
+  "protocol_id": "one_way_anova_tukey_v1",
+  "software_version": "1.0.1",
+  "library_version": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "statsmodels": "0.14.6",
+    "scikit_posthocs": "0.14.0"
+  },
+  "parameters": {
+    "alpha": 0.05,
+    "missing_policy": "complete_case"
+  },
+  "results": {
+    "protocol_id": "one_way_anova_tukey_v1",
+    "method": "one_way_anova",
+    "engine": {
+      "name": "python",
+      "version": "3.14.3",
+      "libraries": {
+        "numpy": "2.5.1",
+        "pandas": "3.0.5",
+        "scipy": "1.18.0",
+        "statsmodels": "0.14.6",
+        "scikit_posthocs": "0.14.0"
+      }
+    },
+    "statistics": {
+      "F": 223.91748907214628,
+      "df1": 2,
+      "df2": 33,
+      "n_total": 36,
+      "ss_between": 250.95722222222213,
+      "ss_within": 18.49250000000012,
+      "ss_total": 269.44972222222225,
+      "ms_between": 125.47861111111106,
+      "ms_within": 0.5603787878787916
+    },
+    "p_values": {
+      "overall": 6.346658611542142e-20,
+      "pairwise": {
+        "ctrl-trt1": {
+          "mean_difference": 2.341666666666665,
+          "p_value": 2.3870147081161974e-8,
+          "ci_lower": 1.591766568108074,
+          "ci_upper": 3.091566765225256
+        },
+        "ctrl-trt2": {
+          "mean_difference": 6.391666666666666,
+          "p_value": 0.0,
+          "ci_lower": 5.641766568108075,
+          "ci_upper": 7.141566765225257
+        },
+        "trt1-trt2": {
+          "mean_difference": 4.050000000000001,
+          "p_value": 2.398081733190338e-14,
+          "ci_lower": 3.30009990144141,
+          "ci_upper": 4.799900098558592
+        }
+      }
+    },
+    "effect_size": {
+      "eta_squared": 0.9313693855481177
+    },
+    "assumptions": [
+      {
+        "name": "shapiro_wilk:group:ctrl",
+        "passed": true,
+        "statistic": 0.9753377867623907,
+        "p_value": 0.9579588285671545,
+        "detail": ""
+      },
+      {
+        "name": "shapiro_wilk:group:trt1",
+        "passed": true,
+        "statistic": 0.986651717245536,
+        "p_value": 0.9982699278359942,
+        "detail": ""
+      },
+      {
+        "name": "shapiro_wilk:group:trt2",
+        "passed": true,
+        "statistic": 0.9863723787239752,
+        "p_value": 0.9980319691290066,
+        "detail": ""
+      },
+      {
+        "name": "levene_equal_variance",
+        "passed": true,
+        "statistic": 0.4766717430430584,
+        "p_value": 0.6250546390085074,
+        "detail": ""
+      }
+    ],
+    "warnings": [],
+    "parameters": {
+      "alpha": 0.05,
+      "missing_policy": "complete_case"
+    },
+    "metadata": {
+      "groups": [
+        "ctrl",
+        "trt1",
+        "trt2"
+      ]
+    }
+  },
+  "warnings": [],
+  "engine": {
+    "name": "python",
+    "version": "3.14.3",
+    "libraries": {
+      "numpy": "2.5.1",
+      "pandas": "3.0.5",
+      "scipy": "1.18.0",
+      "statsmodels": "0.14.6",
+      "scikit_posthocs": "0.14.0"
+    }
+  },
+  "plan": {
+    "status": "ready",
+    "experiment_type": "Animal study",
+    "variable_type": "continuous",
+    "groups": 3,
+    "group_structure": "independent",
+    "recommended_protocol_id": "one_way_anova_tukey_v1",
+    "reason": "Comparison intent across 3 group(s); outcome is continuous; structure is independent; protocol assumption checks will be run before execution.",
+    "assumptions_to_check": [
+      "observations_independent",
+      "sample_size",
+      "shapiro_wilk",
+      "levene_equal_variance"
+    ],
+    "alternatives": [],
+    "confidence": 0.8
+  },
+  "human_review": {
+    "recommended_protocol_id": "one_way_anova_tukey_v1",
+    "final_protocol_id": "one_way_anova_tukey_v1",
+    "action": "accept",
+    "reason": "",
+    "reviewer": "human",
+    "reviewed_at": "2026-08-06T13:50:38.060327Z"
+  }
+}

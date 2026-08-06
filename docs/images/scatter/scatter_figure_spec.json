@@ -1,0 +1,13 @@
+{
+  "kind": "scatter",
+  "analysis_id": null,
+  "x": "x",
+  "y": "y",
+  "group": null,
+  "time": null,
+  "survival": null,
+  "analysis_result": null,
+  "renderer": "matplotlib+seaborn+statannotations",
+  "svg_fonttype": "none",
+  "tiff_dpi": 300
+}

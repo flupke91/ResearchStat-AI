@@ -2,6 +2,9 @@
 
 AI-native statistical analysis and reproducibility platform for scientific research.
 
+Simplified Chinese is the default project language. The canonical Chinese
+introduction lives in the root [README.md](../README.md).
+
 [English](README.en.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 
 V1 implements the complete loop:

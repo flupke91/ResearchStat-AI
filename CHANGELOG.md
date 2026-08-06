@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Detailed Simplified Chinese README with generated figure outputs, audit
+  examples, and MCP tool examples.
+
 ## 1.0.1 - 2026-08-06
 
 ### Fixed
