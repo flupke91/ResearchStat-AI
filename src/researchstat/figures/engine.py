@@ -39,6 +39,7 @@ def render_analysis_figure(
     plt.rcParams["svg.fonttype"] = "none"
     plt.rcParams["pdf.fonttype"] = 42
     plt.rcParams["font.size"] = 9
+    plt.rcParams["font.family"] = "DejaVu Sans"
     plt.rcParams["svg.hashsalt"] = "researchstat-v1"
     np.random.seed(42)
 

@@ -85,6 +85,7 @@ def render_prototype_figure(output_dir: str | Path) -> dict[str, Path]:
     plt.rcParams["svg.fonttype"] = "none"
     plt.rcParams["pdf.fonttype"] = 42
     plt.rcParams["font.size"] = 9
+    plt.rcParams["font.family"] = "DejaVu Sans"
     plt.rcParams["svg.hashsalt"] = "researchstat-v1"
     np.random.seed(42)
 
