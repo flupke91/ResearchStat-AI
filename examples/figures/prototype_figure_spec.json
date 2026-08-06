@@ -1,0 +1,17 @@
+{
+  "title": "ResearchStat AI Figure Prototype",
+  "data": "synthetic PlantGrowth-like example",
+  "panels": {
+    "A": "boxplot with individual points and significance annotation",
+    "B": "violin plot with significance annotation",
+    "C": "scatter plot with regression line and confidence band",
+    "D": "survival step curve"
+  },
+  "style": [
+    "science",
+    "no-latex"
+  ],
+  "renderer": "matplotlib+seaborn+statannotations",
+  "svg_fonttype": "none",
+  "tiff_dpi": 300
+}

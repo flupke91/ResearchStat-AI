@@ -1,0 +1,22 @@
+# Changelog
+
+## 1.0.0 - 2026-08-06
+
+### Added
+
+- Protocol Registry with 11 V1 protocols.
+- Python and R statistical execution engines.
+- Cross-engine validation with NIST StRD and R official datasets.
+- Audit Trail with `analysis_record.json`.
+- Human Review accept/override workflow.
+- AI Statistical Planner with 15-scenario benchmark.
+- Professional Figure Engine with SVG/PDF/TIFF output.
+- Privacy masking and temporary workspace cleanup.
+- Dockerfile and Docker Compose profiles.
+- MCP server with stdio, sse, and streamable-http transports.
+- Performance benchmark for 10000 rows.
+
+### Notes
+
+- Docker image not built on this machine because Docker is unavailable.
+- MCP not yet tested against third-party MCP clients.

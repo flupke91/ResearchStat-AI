@@ -1,0 +1,25 @@
+ResearchStat AI is distributed under the MIT License.
+
+Third-party software used by this project:
+
+| Component | License |
+| - | - |
+| PyYAML | MIT |
+| pydantic | MIT |
+| numpy | BSD-3-Clause |
+| pandas | BSD-3-Clause |
+| scipy | BSD-3-Clause |
+| statsmodels | BSD-3-Clause |
+| scikit-posthocs | MIT |
+| matplotlib | PSF-based |
+| seaborn | BSD-3-Clause |
+| statannotations | MIT |
+| SciencePlots | MIT |
+| mcp | MIT |
+| R | GPL-2 | GPL-3 |
+| jsonlite | MIT |
+| car | GPL-2 | GPL-3 |
+
+Full dependency and license review is maintained in `docs/ECOSYSTEM.md`.
+Before external distribution, re-run license scanning and include the required
+third-party license texts.

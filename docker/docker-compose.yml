@@ -1,0 +1,17 @@
+services:
+  core:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    profiles: ["core"]
+    command:
+      - python
+      - -c
+      - "from researchstat.engine import run_analysis; print('researchstat core ok')"
+
+  tests:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    profiles: ["test"]
+    command: ["python", "-m", "pytest", "-q"]

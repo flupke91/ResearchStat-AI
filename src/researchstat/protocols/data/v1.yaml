@@ -1,0 +1,147 @@
+protocols:
+  - id: descriptive_v1
+    version: 1
+    method: descriptive
+    assumptions:
+      observations_independent: true
+      normality_checked: false
+      variance: not_applicable
+    posthoc: none
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: none
+    description: Descriptive statistics for continuous variables.
+
+  - id: independent_t_test_student_v1
+    version: 1
+    method: independent_t_test
+    assumptions:
+      observations_independent: true
+      normality_checked: true
+      variance: equal_variance
+    posthoc: none
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: cohens_d
+    description: Independent samples t-test with equal variance assumption.
+
+  - id: independent_t_test_welch_v1
+    version: 1
+    method: independent_t_test
+    assumptions:
+      observations_independent: true
+      normality_checked: true
+      variance: unequal_variance
+    posthoc: none
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: cohens_d
+    description: Independent samples t-test without equal variance assumption.
+
+  - id: paired_t_test_v1
+    version: 1
+    method: paired_t_test
+    assumptions:
+      observations_independent: true
+      normality_checked: true
+      variance: not_applicable
+    posthoc: none
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: cohens_d
+    description: Paired samples t-test on paired differences.
+
+  - id: one_way_anova_tukey_v1
+    version: 1
+    method: one_way_anova
+    assumptions:
+      observations_independent: true
+      normality_checked: true
+      variance: equal_variance
+    posthoc: tukey_hsd
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: eta_squared
+    description: One-way ANOVA followed by Tukey HSD post-hoc comparisons.
+
+  - id: two_way_anova_v1
+    version: 1
+    method: two_way_anova
+    assumptions:
+      observations_independent: true
+      normality_checked: true
+      variance: equal_variance
+    posthoc: none
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: eta_squared
+    description: Two-way ANOVA with Type III sums of squares as the default.
+    parameters:
+      type_iii_ss: true
+
+  - id: mann_whitney_u_v1
+    version: 1
+    method: mann_whitney_u
+    assumptions:
+      observations_independent: true
+      normality_checked: false
+      variance: not_applicable
+    posthoc: none
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: rank_biserial
+    description: Mann-Whitney U test for two independent groups.
+
+  - id: kruskal_wallis_dunn_v1
+    version: 1
+    method: kruskal_wallis
+    assumptions:
+      observations_independent: true
+      normality_checked: false
+      variance: not_applicable
+    posthoc: dunn
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: epsilon_squared
+    description: Kruskal-Wallis test followed by Dunn post-hoc comparisons.
+
+  - id: pearson_correlation_v1
+    version: 1
+    method: pearson_correlation
+    assumptions:
+      observations_independent: true
+      normality_checked: false
+      variance: not_applicable
+    posthoc: none
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: pearson_r
+    description: Pearson product-moment correlation.
+
+  - id: spearman_correlation_v1
+    version: 1
+    method: spearman_correlation
+    assumptions:
+      observations_independent: true
+      normality_checked: false
+      variance: not_applicable
+    posthoc: none
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: spearman_rho
+    description: Spearman rank correlation.
+
+  - id: linear_regression_v1
+    version: 1
+    method: linear_regression
+    assumptions:
+      observations_independent: true
+      normality_checked: false
+      variance: not_applicable
+    posthoc: none
+    alpha: 0.05
+    missing_policy: complete_case
+    effect_size: r_squared
+    description: Simple or multiple linear regression.
+    parameters:
+      include_intercept: true
