@@ -15,6 +15,7 @@
 - Dockerfile and Docker Compose profiles.
 - MCP server with stdio, sse, and streamable-http transports.
 - Performance benchmark for 10000 rows.
+- Multilingual documentation: English, Simplified Chinese, and Japanese.
 
 ### Notes
 
