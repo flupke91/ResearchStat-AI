@@ -6,6 +6,8 @@
 
 - Detailed Simplified Chinese README with generated figure outputs, audit
   examples, and MCP tool examples.
+- Agent-friendly tutorial with copy-paste prompts and a ready-to-run sample
+  dataset.
 - Paper draft in `docs/PAPER.md`.
 - Beginner tutorial in `docs/TUTORIAL.md`.
 - GitHub ecosystem metadata: `CITATION.cff`, `codemeta.json`,

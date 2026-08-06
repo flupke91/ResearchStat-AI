@@ -115,6 +115,10 @@ AI 规划
 
 ## 快速开始
 
+不想看代码？先读 [新手教程](docs/TUTORIAL.md)，里面有可以直接复制给 Agent 的话术。
+
+示例数据：[examples/data/tutorial_data.csv](examples/data/tutorial_data.csv)
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -e ".[figure,test,mcp]"
@@ -124,13 +128,10 @@ python -m venv .venv
 import pandas as pd
 from researchstat.workflow import run_analysis_workflow
 
-data = pd.DataFrame({
-    "group": ["ctrl"] * 10 + ["trt"] * 10,
-    "value": [1.2, 2.1, 1.8, 3.0, 2.5] * 2 + [3.1, 4.2, 3.8, 5.0, 4.5] * 2,
-})
+data = pd.read_csv("examples/data/tutorial_data.csv")
 
 output = run_analysis_workflow(
-    user_input="compare value between two groups",
+    user_input="compare three drugs on mouse tumor size",
     data=data,
     outcome="value",
     group="group",
@@ -138,6 +139,12 @@ output = run_analysis_workflow(
 )
 print(output["result"].model_dump())
 ```
+
+运行后，你会得到：
+
+- 控制台输出推荐 Protocol 和最终 Protocol
+- `audit/` 下的 `analysis_record.json`
+- 可调用 Figure Engine 生成 SVG/PDF/TIFF
 
 ## MCP 调用
 
@@ -164,6 +171,7 @@ print(output["result"].model_dump())
 ## 文档
 
 - 项目计划：[PROJECT_PLAN.md](PROJECT_PLAN.md)
+- 新手教程：[docs/TUTORIAL.md](docs/TUTORIAL.md)
 - V1 验收：[docs/V1_ACCEPTANCE.md](docs/V1_ACCEPTANCE.md)
 - 论文稿：[docs/PAPER.md](docs/PAPER.md)
 - 傻瓜式教程：[docs/TUTORIAL.md](docs/TUTORIAL.md)

@@ -40,17 +40,20 @@ python -m venv .venv
 
 ## Quick Start
 
+Do not want to read code? Start with the
+[tutorial](TUTORIAL.md) (Simplified Chinese), which includes prompts you can
+copy directly into your agent.
+
+Example data: `examples/data/tutorial_data.csv`
+
 ```python
 import pandas as pd
 from researchstat.workflow import run_analysis_workflow
 
-data = pd.DataFrame({
-    "group": ["ctrl"] * 10 + ["trt"] * 10,
-    "value": [1.2, 2.1, 1.8, 3.0, 2.5] * 2 + [3.1, 4.2, 3.8, 5.0, 4.5] * 2,
-})
+data = pd.read_csv("examples/data/tutorial_data.csv")
 
 output = run_analysis_workflow(
-    user_input="compare value between two groups",
+    user_input="compare three drugs on mouse tumor size",
     data=data,
     outcome="value",
     group="group",
@@ -83,6 +86,7 @@ Exposed tools:
 ## Documentation
 
 - Project plan: `PROJECT_PLAN.md`
+- Tutorial: `docs/TUTORIAL.md`
 - Research lessons: `docs/RESEARCH_LESSONS.md`
 - Open source ecosystem: `docs/ECOSYSTEM.md`
 - V1 acceptance: `docs/V1_ACCEPTANCE.md`

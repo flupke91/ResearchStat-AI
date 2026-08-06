@@ -40,17 +40,19 @@ python -m venv .venv
 
 ## クイックスタート
 
+コードを読みたくない場合は、[チュートリアル](TUTORIAL.md)（簡体字中国語）を
+先に読んでください。Agent にそのままコピーできるプロンプトがあります。
+
+サンプルデータ: `examples/data/tutorial_data.csv`
+
 ```python
 import pandas as pd
 from researchstat.workflow import run_analysis_workflow
 
-data = pd.DataFrame({
-    "group": ["ctrl"] * 10 + ["trt"] * 10,
-    "value": [1.2, 2.1, 1.8, 3.0, 2.5] * 2 + [3.1, 4.2, 3.8, 5.0, 4.5] * 2,
-})
+data = pd.read_csv("examples/data/tutorial_data.csv")
 
 output = run_analysis_workflow(
-    user_input="compare value between two groups",
+    user_input="compare three drugs on mouse tumor size",
     data=data,
     outcome="value",
     group="group",
@@ -83,6 +85,7 @@ print(output["result"].model_dump())
 ## ドキュメント
 
 - プロジェクト計画: `PROJECT_PLAN.md`
+- チュートリアル: `docs/TUTORIAL.md`
 - 競合調査: `docs/RESEARCH_LESSONS.md`
 - オープンソースエコシステム: `docs/ECOSYSTEM.md`
 - V1 受け入れ: `docs/V1_ACCEPTANCE.md`
