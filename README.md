@@ -9,6 +9,12 @@
 
 [English](docs/README.en.md) | [简体中文](docs/README.zh-CN.md) | [日本語](docs/README.ja.md)
 
+## Architecture
+
+![ResearchStat AI system architecture](docs/architecture/ResearchStat-AI-architecture.svg)
+
+[Open the editable draw.io source](docs/architecture/ResearchStat-AI-architecture.drawio)
+
 ## 项目简介
 
 ResearchStat AI 的目标不是复制 GraphPad Prism、SPSS 或 Origin，而是建立一套科研级统计基础设施：所有方法都有明确 Protocol，所有结果都绑定审计记录，所有图形都可复现。

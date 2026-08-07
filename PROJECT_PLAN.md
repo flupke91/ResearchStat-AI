@@ -759,3 +759,9 @@ V1 规划流程：
   - `@next-ai-drawio/mcp-server@latest` could not start in this environment because its published dependency tree is missing `ajv`
   - SVG preview was generated from the same approved layout; opening the `.drawio` source in diagrams.net remains the editable source of truth
 - Next step: human review of the architecture diagram before the next project phase
+
+### Architecture homepage placement
+
+- Status: completed
+- The root README now renders the SVG architecture diagram in the GitHub homepage content area.
+- The editable draw.io source remains linked directly below the preview.
