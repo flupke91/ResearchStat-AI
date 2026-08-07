@@ -766,3 +766,4 @@ V1 规划流程：
 - The root README now renders the SVG architecture diagram in the GitHub homepage content area.
 - The editable draw.io source remains linked directly below the preview.
 - Localized homepage previews added: English, Simplified Chinese, and Japanese SVG files are linked from their respective README files.
+- Draw.io MCP export completed: the Chinese homepage SVG is exported from the 系统架构（简体中文） page; the duplicate bottom Architecture section was removed from the root README.
