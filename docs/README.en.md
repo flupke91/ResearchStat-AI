@@ -99,5 +99,5 @@ MIT. See `LICENSE`; third-party licenses are listed in `NOTICE`.
 
 ## Architecture
 
-See the [editable draw.io architecture source](architecture/ResearchStat-AI-architecture.drawio) and [SVG preview](architecture/ResearchStat-AI-architecture.svg).
+See the [editable draw.io architecture source](architecture/ResearchStat-AI-architecture.drawio) and [SVG preview](architecture/ResearchStat-AI-architecture.en.svg).
 

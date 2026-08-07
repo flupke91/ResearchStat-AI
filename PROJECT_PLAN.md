@@ -765,3 +765,4 @@ V1 规划流程：
 - Status: completed
 - The root README now renders the SVG architecture diagram in the GitHub homepage content area.
 - The editable draw.io source remains linked directly below the preview.
+- Localized homepage previews added: English, Simplified Chinese, and Japanese SVG files are linked from their respective README files.

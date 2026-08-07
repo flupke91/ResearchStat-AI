@@ -1,6 +1,12 @@
-﻿# ResearchStat AI Architecture
+# ResearchStat AI Architecture
 
-The editable source is [`ResearchStat-AI-architecture.drawio`](ResearchStat-AI-architecture.drawio).
+The editable source is [ResearchStat-AI-architecture.drawio](ResearchStat-AI-architecture.drawio).
+
+Localized SVG previews:
+
+- [English](ResearchStat-AI-architecture.en.svg)
+- [简体中文](ResearchStat-AI-architecture.zh-CN.svg)
+- [日本語](ResearchStat-AI-architecture.ja.svg)
 
 It contains two pages:
 

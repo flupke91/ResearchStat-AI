@@ -11,7 +11,7 @@
 
 ## Architecture
 
-![ResearchStat AI system architecture](docs/architecture/ResearchStat-AI-architecture.svg)
+![ResearchStat AI system architecture](docs/architecture/ResearchStat-AI-architecture.zh-CN.svg)
 
 [Open the editable draw.io source](docs/architecture/ResearchStat-AI-architecture.drawio)
 
@@ -192,5 +192,5 @@ MIT，详见 `LICENSE`。第三方依赖许可证见 `NOTICE`。
 
 ## Architecture
 
-[Editable draw.io architecture source](docs/architecture/ResearchStat-AI-architecture.drawio) | [SVG preview](docs/architecture/ResearchStat-AI-architecture.svg)
+[Editable draw.io architecture source](docs/architecture/ResearchStat-AI-architecture.drawio) | [SVG preview](docs/architecture/ResearchStat-AI-architecture.zh-CN.svg)
 

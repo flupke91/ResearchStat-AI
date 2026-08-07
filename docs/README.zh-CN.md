@@ -96,5 +96,5 @@ MIT，详见 `LICENSE`。第三方依赖许可证见 `NOTICE`。
 
 ## 架构图
 
-查看[可编辑 draw.io 架构源文件](architecture/ResearchStat-AI-architecture.drawio)和 [SVG 预览](architecture/ResearchStat-AI-architecture.svg)。
+查看[可编辑 draw.io 架构源文件](architecture/ResearchStat-AI-architecture.drawio)和 [SVG 预览](architecture/ResearchStat-AI-architecture.zh-CN.svg)。
 

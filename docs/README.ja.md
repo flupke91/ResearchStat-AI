@@ -98,5 +98,5 @@ MIT。詳細は `LICENSE`、サードパーティライセンスは `NOTICE` を
 
 ## アーキテクチャ
 
-[編集可能な draw.io ソース](architecture/ResearchStat-AI-architecture.drawio) と [SVG プレビュー](architecture/ResearchStat-AI-architecture.svg) を参照してください。
+[編集可能な draw.io ソース](architecture/ResearchStat-AI-architecture.drawio) と [SVG プレビュー](architecture/ResearchStat-AI-architecture.ja.svg) を参照してください。
 
