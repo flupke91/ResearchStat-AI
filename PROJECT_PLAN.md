@@ -741,3 +741,21 @@ V1 规划流程：
   - 无远端仓库，未推送。
   - Docker 未在本机构建验证。
 - 下一步：初始化 git、创建 `v1.0.0` 提交，并推送到远端。
+
+## Phase 9: Architecture Diagram
+
+- Status: completed
+- Date: 2026-08-07
+- Deliverables:
+  - `docs/architecture/ResearchStat-AI-architecture.drawio` (editable two-page draw.io source)
+  - `docs/architecture/ResearchStat-AI-architecture.svg` (GitHub preview)
+  - `docs/architecture/README.md`
+  - multilingual README links in English, Simplified Chinese, and Japanese
+- Verification:
+  - draw.io XML parsed successfully as standard XML
+  - diagram pages cover System Architecture and Analysis Workflow
+  - diagram reflects implemented V1 modules and local privacy boundary
+- Known limitations:
+  - `@next-ai-drawio/mcp-server@latest` could not start in this environment because its published dependency tree is missing `ajv`
+  - SVG preview was generated from the same approved layout; opening the `.drawio` source in diagrams.net remains the editable source of truth
+- Next step: human review of the architecture diagram before the next project phase
